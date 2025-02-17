@@ -1,0 +1,453 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 900vh;
+  border: 1px solid black;
+}
+html {
+  font-size: 62.5%;
+}
+.header {
+  width: 100%;
+  height: 6vh;
+  background-color: var(--ofwhite);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+@media (max-width: 1350px) {
+  .head {
+    display: none;
+  }
+}
+.nav-head {
+  color: #666666;
+  display: flex;
+  font: bold 1.2rem pop;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+.countries {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+.topbtn {
+  width: 110px;
+  height: 40px;
+  font: bold 1.2rem pop;
+  margin-top: 3px;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  padding: 0px 10px;
+  height: auto;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom: 2px solid #d1d0d0;
+}
+.anchor {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 1170px) {
+  .anchor {
+    display: none;
+  }
+}
+a {
+  font: bold 1.4rem pop;
+  text-decoration: none;
+  color: rgb(102, 93, 93);
+  align-items: center;
+  padding-right: 2px;
+}
+
+.btn {
+  width: 380px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+@media (max-width: 1170px) {
+  .btn {
+    display: none;
+  }
+}
+
+.btn-1 {
+  width: 160px;
+  height: 45px;
+  font: bold 1.5rem pop;
+  border: transparent;
+  border-radius: 8px;
+}
+.meanu {
+  height: 50px;
+  width: 40px;
+  font-size: 2.9rem;
+  margin: 8px 5px 0px 0px;
+  padding: 0px 0px;
+  border: transparent;
+  display: none;
+  color: #666666;
+}
+@media (max-width: 1170px) {
+  .meanu {
+    display: inline;
+  }
+}
+.baner {
+  width: 35%;
+  margin: 30px 50px 0px 90px;
+}
+@media (max-width: 1090px) {
+  .baner {
+    display: none;
+  }
+}
+.main-text {
+  font-size: 3.8rem;
+  font-family: pop;
+  font: bold;
+  margin: 130px 0px 0px 10px;
+}
+.main-text2 {
+  font-size: 2.4rem;
+  font-family: pop;
+  margin: 20px 0px 0px 10px;
+}
+.main-para {
+  font-family: pop;
+  font-size: 1.6rem;
+  margin: 10px 0px 0px 10px;
+}
+.explo-btn {
+  height: 50px;
+  width: 200px;
+  margin: 0px 0px 0px 10px;
+  font-family: pop;
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 0.2px;
+  border: 1px solid var(--black);
+}
+
+.detail {
+  width: 97.5%;
+  height: auto;
+  margin: 60px 0px 10px 20px;
+  padding: 35px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #b3f14033;
+  border: transparent;
+  border-radius: 7px;
+}
+.type {
+  width: 303px;
+  height: 50px;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.gen {
+  width: 70px;
+  font: bold 1.3rem sans-serif;
+  padding: 15px 8px;
+  background-color: #302f2f;
+  color: #fff;
+}
+input {
+  width: 190px;
+  padding: 0px 10px;
+}
+.rs {
+  width: 46px;
+  font: bold 1.5rem sans-serif;
+  padding: 15px 8px;
+  background-color: #302f2f;
+  color: #fff;
+}
+.blood {
+  width: 310px;
+  color: #302f2f;
+  border-radius: 5px;
+  padding: 17px 28px;
+  cursor: pointer;
+  transition: all 1s;
+  font: bold 1.3rem sans-serif;
+  background-color: #fff;
+}
+.blood:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: #302f2f;
+}
+.family {
+  width: 150px;
+  color: #302f2f;
+  border-radius: 5px;
+  padding: 17px 27px;
+  cursor: pointer;
+  transition: all 1s;
+  font: bold 1.3rem sans-serif;
+  background-color: #fff;
+}
+.family:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: #302f2f;
+}
+.med {
+  width: 110px;
+  color: #302f2f;
+  border-radius: 5px;
+  padding: 17px 28px;
+  cursor: pointer;
+  transition: all 1s;
+  font: bold 1.3rem sans-serif;
+  background-color: #fff;
+}
+.med:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: #302f2f;
+}
+.food {
+  width: 90px;
+  color: #302f2f;
+  border-radius: 5px;
+  padding: 17px 28px;
+  cursor: pointer;
+  transition: all 1s;
+  font: bold 1.3rem sans-serif;
+  background-color: #fff;
+}
+.food:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: #302f2f;
+}
+.quick {
+  width: 140px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 17px 25px;
+  cursor: pointer;
+  transition: all 1s;
+  font: 1.4rem sans-serif;
+  background-color: #8dc63f;
+}
+.quick:hover {
+  transform: scale(1.1);
+}
+
+.educimg{
+    width: 98.5%;
+    height: 600px;
+    border:1px solid var(--ofwhite);
+    border-radius: 7px;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+.g-font{
+    font-size: 3.2rem;
+    font-family: pop;
+    font-weight: 600;
+}
+.wel-img{
+    background-color: #b3f14033;
+    width: 230px;
+    padding: 10px 70px 10px 50px;
+    text-align: center;
+
+}
+.med-img{
+    background-color: #b3f14033;
+    width: 220px;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+
+}
+.onsad-img{
+    background-color: #b3f14033;
+    width: 230px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+
+}
+.water-img{
+    background-color: #b3f14033;
+    width: 230px;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+
+}
+.edu-img{
+    background-color: #b3f14033;
+    width: 240px;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+
+}
+.food-img{
+    background-color: #b3f14033;
+    width: 230px;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+
+}
+
+.img-font{
+    font-family: pop;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.smit{
+    height: auto;
+    margin-top: 30px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+}
+.sponer-it{
+    width: 400px;
+    height: 330px;
+    position: relative;
+}
+.image {
+    width: 470px;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:470px;
+    height: 285px;
+    cursor: pointer;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    position: absolute;
+    top: 18%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font:bold 1.4rem pop;
+    color: white;
+}
+.donater{
+    width: 420px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+    transition: all 1s;
+    cursor: pointer;
+    font: bold 1.4rem pop;
+    border-radius: 6px;
+    background-color: #8DC63F;
+}
+.donater:hover{
+color: #302f2f;
+opacity: 0.5;
+}
+
+
+.saylani-service{
+    height: 500px;
+    margin-top: 30px;
+}
+.saylani-service>img{
+    width: 650px;
+    height: 500px;
+    padding: 0;
+    border-top-left-radius: 50px;
+    margin-left: 55px;
+}
+.upcoming_text_box {
+    align-items: center;
+    background-color: #8dc63f !important;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top-left-radius: 60px;
+    display: flex;
+    height: 40%;
+    position: absolute;
+    font: bold 1.1rem sans-serif;
+    color: #fff;
+    justify-content: center;
+    padding: 65px;
+    top: 331.4%;
+    left: 4.2%;
+    width: 23%;
+}
+.other-project{
+    width: 600px;
+    height: 480px;
+}
+.other{
+    height: 88px;
+    color: #4e4d4d;
+    padding: 30px 30px;
+    font: bold;
+    font-size: 3.2rem;
+    font-family: pop;
+    font-weight: 600;
+}
+.hepatitis{
+    width: 690px;
+    height: 80px;
+}
+.hepa{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    margin-left: 33px;
+    background-color: #dddbdb;
+}
+.hepati{
+    color:var(--blue);
+    margin: 10px 20px;
+    height: 60px;
+    font: bold 1.5rem pop;
+
+}
+.hepatitis-detail{
+    color: #4e4d4d;
+    margin-top: 7px;
+    font: bold 1.1rem pop;
+}
+
+@font-face {
+  font-family: pop;
+  src: url(/assets/fonts/Poppins/Poppins-Light.ttf);
+}
