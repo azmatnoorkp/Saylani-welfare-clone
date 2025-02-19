@@ -20,7 +20,7 @@ html {
   padding: 0px 30px;
 }
 @media (max-width: 1350px) {
-  .head {
+  .header{
     display: none;
   }
 }
@@ -106,7 +106,7 @@ a {
   display: none;
   color: #666666;
 }
-@media (max-width: 1170px) {
+@media(max-width: 1170px){
   .meanu {
     display: inline;
   }
@@ -396,16 +396,16 @@ opacity: 0.5;
     background-color: #8dc63f !important;
     border-bottom: 1px solid #fff;
     border-right: 1px solid #fff;
-    border-top-left-radius: 60px;
+    border-top-left-radius: 50px;
     display: flex;
-    height: 40%;
+    height: 38%;
     position: absolute;
-    font: bold 1.1rem sans-serif;
+    font: bold 1.7rem pop;
     color: #fff;
     justify-content: center;
     padding: 65px;
-    top: 331.4%;
-    left: 4.2%;
+    top: 285.7%;
+    left: 3.7%;
     width: 23%;
 }
 .other-project{
@@ -426,8 +426,8 @@ opacity: 0.5;
     height: 80px;
 }
 .hepa{
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 10px;
     align-content: center;
     text-align: center;
@@ -436,15 +436,374 @@ opacity: 0.5;
 }
 .hepati{
     color:var(--blue);
-    margin: 10px 20px;
-    height: 60px;
+    margin: 20px 20px;
+    height: 50px;
     font: bold 1.5rem pop;
 
 }
 .hepatitis-detail{
     color: #4e4d4d;
     margin-top: 7px;
-    font: bold 1.1rem pop;
+    font: bold 1.4rem pop;
+}
+.hepa-1{
+  margin-top: 27px;
+}
+.hepa-2{
+  margin-top: 45px;
+
+}
+.hepa-3{
+    margin-top: 67px;
+}
+.hepa-4{
+    margin-top: 85px;
+}
+.sideimg{
+  margin-top: 35px;
+  width: 700px;
+}
+.charityimg{
+  margin-top: 60px;
+  height: 460px;
+  width: 1510px;
+}
+.greentext{
+  font: 100 1.9rem pop;
+  color: var(--green);
+}
+.grey{
+  height: 500px;
+  width: 1470px;
+  margin-left: 20px;
+  background-color: #eeeeee;
+  
+}
+.person{
+  width: 120px;
+  border: transparent;
+  border-radius: 100%;
+  margin-left: 680px;
+  margin-top: 50px
+}
+.arrows{
+  width: 110px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.arrow-one{
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font: bold 2rem pop;
+  background-color: #fff;
+}
+.arrow-two{
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font: bold 2rem pop;
+  background-color: #8DC63F
+}
+
+.saylani-mobile{
+  width: 350px;
+  height: 320px;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid rgb(177, 176, 176);
+  margin-top: 30px;
+}
+.instalment{
+  font: bold 1.5rem pop;
+  color: #302f2f;
+  padding-left: 10px;
+  line-height: 25px;
+}
+.organi{
+  padding-left: 10px;
+  font: 1.4rem pop;
+  color: #868585;
+}
+.trainers{
+  width: 94%;
+  height: 530px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.meetup{
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.saylani-mobi{
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #f1efef;
+}
+.mon{
+  width: 111px;
+  height: 28px;
+  border-radius: 4px;
+  color: #fff;
+  padding: 9px 10px;
+  cursor: pointer;
+  margin: 11px 12px;
+  font: 1.2rem pop;
+  background-color: #8DC63F;
+}
+.direction{
+  width: 60px;
+  height: 40px;
+  padding-left: 17px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  border: transparent;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.sponer-i{
+  height: 300px;
+  position: relative;
+  margin-top: 70px;
+}
+.imge {
+  width: 98%;
+  height: 91%;
+  margin-left: 20px;
+  object-fit: cover;
+}
+.overla {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98%;
+  height: 91%;
+  margin-left: 20px;
+  cursor: pointer;
+  opacity: 0.85;
+  background: #0d6db7;
+}
+
+.guid {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font:600 3rem pop;
+  color: white;
+}
+.sponer-i>input{
+  width: 700px;
+  height: 50px;
+  position: absolute;
+  color: #ffffff;
+  bottom: 50%;
+  left: 27%;
+  opacity: 0.7;
+  font: 1.6rem pop;
+  border-radius: 6px;
+  border: 2px solid #fff;
+  background: #0d6db7;
+}
+.sub{
+  width: 700px;
+  height: 50px;
+  color: #292828;
+  text-align: center;
+  align-content: center;
+  position: absolute;
+  bottom: 31%;
+  left: 27%;
+  transition: all 1s;
+  cursor: pointer;
+  font: bold 1.4rem pop;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+.sub:hover{
+color: #1f1e1e;
+opacity: 0.6;
+}
+footer{
+  width: 100%;
+  height: 600px;
+  padding: 50px 0px 0px 55px;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/275/871/642/lines-stripes-blurred-black-background-wallpaper-thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 5px;
+}
+.footer-content{
+  width: 95%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 0.3px solid #757474;
+}
+.footer-one{
+  width: 300px;
+  height: 150px;
+}
+.footer-one>img{
+  width: 300px;
+  height: 75px;
+}
+.icons{
+  width: 200px;
+  height: 40px;
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+.face{
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 6px;
+  font: 3rem pop;
+  text-align: center;
+  cursor: pointer;
+  transition: all 1s;
+   align-content: center;
+  background-color: #1975ff;
+}
+.face:hover{
+  color: #0d6db7;
+  background-color: #fff;
+}
+.ax{
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 6px;
+  font: 3rem pop;
+  text-align: center;
+  cursor: pointer;
+  transition: all 1s;
+   align-content: center;
+  background-color: #181818;
+}
+.ax:hover{
+  color: #141414;
+  background-color: #fff;
+}
+.youtube{
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 6px;
+  font: 3rem pop;
+  text-align: center;
+  cursor: pointer;
+  transition: all 1s;
+   align-content: center;
+  background-color: #ff2819;
+}
+.youtube:hover{
+  color:  #ff1d19;
+  background-color: #fff;
+}
+.whatsaap{
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 6px;
+  font: 3rem pop;
+  text-align: center;
+  cursor: pointer;
+  transition: all 1s;
+   align-content: center;
+  background-color: #078118;
+}
+.whatsaap:hover{
+  color:  #078118;
+  background-color: #fff;
+}
+.footer-two{
+  width: 230px;
+  height: 150px;
+}
+.about{
+  font: bold 2.7rem pop;
+  color: #fff;
+}
+.intro{
+  font:  1.3rem pop;
+  color: #fff;
+  cursor: pointer;
+  padding-top: 20px;
+}
+.footer-three{
+  width: 150px;
+  height: 200px;
+}
+.footer-four{
+  width: 330px;
+  height: 150px;
+  margin-right: 50px;
+}
+.intr{
+  font:  1.3rem pop;
+  color: #fff;
+  cursor: pointer;
+  padding-top: 20px;
+}
+.for{
+  font: bold 0.8rem sans-serif;
+  color: #fff;
+  cursor: pointer;
+  cursor: pointer;
+  padding-top: 20px;
+}
+.line{
+  width: 100%;
+  height: 190px;
+  border-bottom: 0.3px solid #757474;
+}
+.line>img{
+  margin: 30px 500px;
+}
+.ip-address{
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  display: flex;
+  font:  1.2rem pop;
+  border-bottom: 0.3px solid #757474;
+}
+.ip{
+  color: #fff;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.ip:hover{
+  color: #47adfa;
+}
+.copy-right{
+  padding-top: 25px;
+  margin: 0 auto;
+  font: bold 1.8rem pop;
+  color: #fff;   
 }
 
 @font-face {

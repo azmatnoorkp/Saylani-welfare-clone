@@ -72,6 +72,9 @@
 .justify-content-evenly{
     justify-content: space-evenly;
 }
+.gap-1{
+    gap: 10px;
+}
 .gap-2{
     gap: 20px;
 }
@@ -84,6 +87,7 @@
 .text-center{
     text-align: center;
 }
+
 .pt-2{
     padding-top: 20px;
 }
@@ -92,4 +96,10 @@
 }
 .pt-4{
     padding-top: 40px;
+}
+.pt-5{
+padding-top: 50px;
+}
+.pt-6{
+    padding-top: 60px;
 }
